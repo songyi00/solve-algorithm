@@ -12,6 +12,7 @@ for k,v in dic.items():
     if val < v :
         result = k
         val = v 
+        cnt = 0
     elif val == v:
         cnt+=1
 if not cnt:
