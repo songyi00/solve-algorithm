@@ -1,5 +1,3 @@
-from distutils import dep_util
-
 
 def dfs(n,m,depth,index):
     if depth == m:
